@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Restaurant Le Paradis Culinaire</title>
+</head>
+
+<body>
+
+    <!-- Titre principal du restaurant -->
+    <h1>Restaurant Le Paradis Culinaire</h1>
+    <p><em>Une expérience gastronique inoubliable</em></p>
+    
+
+    <!-- La partie navigation -->
+     <h2>Decouvrez notre Menu</h2>
+        <ul>
+            <li><a href="#entrées"><em>Entrée</em></a></li>
+            <li><a href="#plats principaux"><em>Plats principaux</em></a></li>
+            <li><a href="#desserts"><em>Desserts</em></a></li>
+        </ul>
+
+        
+    <!-- première entrée -->
+<br>
+    <h2>Entrées</h2>
+
+    <ul>
+        <li>
+            <strong>Salade Tropicale</strong><br>
+            <p>Salade fraîche composée de laitue, mangue et avocat.</p>
+        <img src="/salade mange avocat.jpg" width="200" height="150" alt="">
+        </li>
+<BR>
+        <li>
+            <strong>Soupe de Légumes</strong>
+            <p>Délicieuse soupe préparée avec des légumes frais.</p>
+        <img src="/soupe de legumes.jpg" width="200" height="150" alt="">
+        </li>
+<br>
+        <li>
+            <strong>Crevettes Grillées</strong>
+            <p>Crevettes assaisonnées et légèrement grillées.</p>
+        </li>
+    </ul>
+
+    <!-- deuxième entrée -->
+    <h2>Plats Principaux</h2>
+
+    <ul>
+        <li>
+            <strong>Poulet Braisé</strong>
+            <p>Poulet tendre accompagné de frites maison.</p>
+        <img src="/poulet braisé.jpg" width="200" height="150" alt="">
+        </li>
+
+        <li>
+            <strong>Poisson Grillé</strong>
+            <p>Poisson frais servi avec du riz parfumé.</p>
+        <img src="/poisson grillé.jpg" width="200" height="150" alt="">
+        </li>
+        
+        </li>
+
+        <br>
+        <li>
+            <strong>Riz au Bœuf</strong>
+            <p>Riz savoureux accompagné d'une sauce au bœuf.</p>
+        <img src="/riz au boeuf.jpg" width="200" height="150" alt="">
+        </li>
+        </li>
+    </ul>
+
+    <!-- troisième entrée -->
+    <h2>Desserts</h2>
+
+    <ul>
+        <li>
+            <strong>Gâteau au Chocolat</strong>
+            <p>Moelleux au chocolat préparé chaque jour.</p>
+        <img src="/gateau au chocolat.jpg" width="200" height="150" alt="">
+        </li>
+        </li>
+<br>
+        <li>
+            <strong>Salade de Fruits</strong>
+            <p>Mélange de fruits frais de saison.</p>
+        <img src="/salade fruit.jpg" width="200" height="150" alt="">
+        </li>
+        </li>
+
+        <li>
+            <strong>Crème Caramel</strong>
+            <p>Dessert onctueux nappé d'un caramel gourmand.</p>
+        <img src="/creme au lait.jpg" width="200" height="150" alt="">
+        </li>
+        </li>
+    </ul>
+
+    
+    
+</body>
+
+
+<footer>
+
+    <section>
+
+        <h2>Contactez-nous</h2>
+
+        <p>Téléphone : +221 77 876 50 97</p>
+        <p>Email : contact@paradisculinaire.com</p>
+
+        <form>
+
+            <label for="nom">Nom complet :</label><br>
+            <input type="text" id="nom" name="nom" required>
+
+    
+
+            <br><br>
+
+            <label for="telephone">Téléphone :</label><br>
+            <input type="tel" id="telephone" name="telephone">
+
+            <br><br>
+
+            <label for="email">Adresse e-mail :</label><br>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="motif">Motif de votre demande :</label><br>
+
+            <select id="motif" name="motif">
+
+                <option>Réservation</option>
+
+                <option>Demande d'information</option>
+
+                <option>Anniversaire</option>
+
+                <option>Organisation d'événement</option>
+
+                <option>Autre</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="personnes">
+                Nombre de personnes :
+            </label><br>
+
+            <input
+                type="number"
+                id="personnes"
+                name="personnes"
+                min="1"
+                max="100"
+            >
+
+            <br><br>
+
+            <label for="date">
+                Date souhaitée :
+            </label><br>
+
+            <input
+                type="date"
+                id="date"
+                name="date"
+            >
+
+            <br><br>
+
+            <label for="heure">
+                Heure souhaitée :
+            </label><br>
+
+            <input
+                type="time"
+                id="heure"
+                name="heure"
+            >
+
+            <br><br>
+
+            <label>
+                Préférence de table :
+            </label><br>
+
+            <input
+                type="radio"
+                id="interieur"
+                name="table"
+                value="interieur"
+            >
+
+            <label for="interieur">
+                Intérieur
+            </label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="terrasse"
+                name="table"
+                value="terrasse"
+            >
+
+            <label for="terrasse">
+                Terrasse
+            </label>
+
+            <br><br>
+
+            <label>
+                Services souhaités :
+            </label><br>
+
+            <input
+                type="checkbox"
+                id="wifi"
+                name="service"
+                value="wifi"
+            >
+
+            <label for="wifi">
+                Wi-Fi
+            </label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="anniversaire"
+                name="service"
+                value="anniversaire"
+            >
+
+            <label for="anniversaire">
+                Gâteau d'anniversaire
+            </label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="enfant"
+                name="service"
+                value="enfant"
+            >
+
+            <label for="enfant">
+                Chaise pour enfant
+            </label>
+
+            <br><br>
+
+            <label for="commentaire">
+                Commentaire ou message :
+            </label><br>
+
+            <textarea
+                id="commentaire"
+                name="commentaire"
+                rows="6"
+                cols="40"
+                placeholder="Écrivez votre message ici..."
+            ></textarea>
+
+            <br><br>
+
+            <input
+                type="submit"
+                value="Envoyer la demande">
+
+            <input
+                type="reset"
+                value="Effacer"
+            >
+
+        </form>
+
+    </section>
+
+</footer>
+```
+
+
+</html>
