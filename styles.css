@@ -29,6 +29,8 @@ body {
     transition: 0.3s;
 }
 
+.card img { height : 250px; }
+
 .card:hover {
     transform: translateY(-5px);
 }
